@@ -1,21 +1,24 @@
-Football Team Builder 
+ Football Team Builder ⚽
 
-A simple web app where users can build their football lineup.
+A web app where users can build their football lineup on a pitch.
 
  Features
 
-- Add any player to the pitch
-- Drag players around the field
-- Maximum squad size of 11 players
+Add custom players
+ 4-3-3 and 4-4-2 formations
+Drag players around the pitch
+ Save lineup as image
+Clear team button
+Football pitch graphics
 
-Technologies Used
+ Technologies
 
 HTML  
 CSS  
-JavaScript
+JavaScript  
 
  How to Run
 
-1. Download the project
-2. Open index.html
-3. Enter player names and build your team
+Open `index.html` in your browser.
+
+Or run using Live Server in VS Code.
