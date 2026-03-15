@@ -16,25 +16,50 @@ width:200px;
 
 button{
 padding:10px;
+margin:5px;
 cursor:pointer;
 }
 
 .field{
 width:500px;
 height:600px;
-background:linear-gradient(#1f7a1f,#1a651a);
+background:#1f7a1f;
 border:4px solid white;
 margin:auto;
 position:relative;
 border-radius:10px;
+overflow:hidden;
+}
+
+/* pitch lines */
+
+.center-line{
+position:absolute;
+width:100%;
+height:2px;
+background:white;
+top:50%;
+}
+
+.center-circle{
+position:absolute;
+width:120px;
+height:120px;
+border:2px solid white;
+border-radius:50%;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 }
 
 .player{
 position:absolute;
 background:white;
 color:black;
-padding:6px 12px;
-border-radius:6px;
+padding:8px 12px;
+border-radius:20px;
 cursor:move;
 font-size:14px;
+font-weight:bold;
+box-shadow:0 2px 5px rgba(0,0,0,0.3);
 }
