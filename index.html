@@ -4,6 +4,7 @@
 <head>
 <title>Football Team Builder</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 
 <body>
@@ -15,10 +16,23 @@
 <input type="text" id="playerInput" placeholder="Enter player name">
 
 <button onclick="addCustomPlayer()">Add Player</button>
+<button onclick="clearTeam()">Clear Team</button>
+
+<br>
+
+<button onclick="setFormation('433')">4-3-3</button>
+<button onclick="setFormation('442')">4-4-2</button>
+
+<button onclick="saveImage()">Save Lineup</button>
 
 </div>
 
-<div class="field" id="field"></div>
+<div class="field" id="field">
+
+<div class="center-line"></div>
+<div class="center-circle"></div>
+
+</div>
 
 <script src="script.js"></script>
 
